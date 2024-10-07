@@ -245,6 +245,17 @@ body {
   column-gap: 24px;
 }
 
+.container-description-icon {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .description-title {
   font-weight: 500;
   font-size: 20px;
@@ -441,6 +452,16 @@ body {
   padding: 100px 0px;
 }
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-container-logo-text {
+  margin-right: 120px;
+  margin-left: 0px;
+}
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -465,19 +486,23 @@ body {
 }
 
 .footer-social-container {
-  display: flex;
-  align-items: center;
+  display: block;
+  margin-left: 0px;
 }
 
 .footer-social-media-text {
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
 }
 
 .footer-social-list {
   display: flex;
+  width: 208px;
+  height: 80px;
   justify-content: space-between;
 }
 
@@ -500,5 +525,9 @@ body {
 .footer-social-list-link:hover,
 .footer-social-list-link:focus {
   background-color: #31d0aa;
+}
+
+.footer-social-list-icon {
+  fill: #f4f4fd;
 }
 /* ======= /FOOTER STYLES ====== */
