@@ -227,6 +227,8 @@ body {
   height: 56px;
   border: none;
   border-radius: 4px;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .page-button:hover,
@@ -299,6 +301,8 @@ body {
   width: calc((100% - 72px) / 4);
   padding-bottom: 32px;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .our-team-list-img {
@@ -410,6 +414,10 @@ body {
   border-bottom: 1px;
 }
 
+.portfolio-li:hover {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
 .portfolio-div-img {
   position: relative;
   overflow: hidden;
