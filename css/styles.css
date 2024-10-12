@@ -511,12 +511,12 @@ body {
 
 .footer-social-list {
   gap: 16px;
-  width: 40px;
-  height: 40px;
+  display: flex;
 }
 
 .footer-social-list-item {
-  display: flex;
+  width: 40px;
+  height: 40px;
 }
 
 .footer-social-list-link {
